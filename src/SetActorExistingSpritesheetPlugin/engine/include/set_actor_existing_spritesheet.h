@@ -5,7 +5,7 @@
 #include "actor.h"
 
 // Repoints an actor at `spritesheet` (already resident in VRAM at
-// `base_tile_idx`) without copying any tile data — unlike the stock
+// `base_tile_idx`) without copying any tile data. The stock
 // vm_actor_set_spritesheet, which always calls load_sprite()/load_bounds()
 // to (re)upload tiles. Use only when the caller guarantees the tiles are
 // already loaded at that base_tile_idx (e.g. a per-room streamed tile band

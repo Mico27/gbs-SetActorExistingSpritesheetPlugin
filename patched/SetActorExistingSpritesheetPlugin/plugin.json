@@ -2,8 +2,8 @@
   "type": "eventsPlugin",
   "name": "Set Actor Existing Spritesheet Plugin",
   "author": "ladx-gbs",
-  "description": "Adds an event that repoints an actor at a different spritesheet WITHOUT copying tile data into VRAM — for use when the target tiles are already resident (e.g. a per-room streamed tile band). Ported from the gbs-Ninball project's PinballPlugin (eventSetActorExistingSpritesheet.js / set_actor_existing_spritesheet), stripped down to just this one event.",
+  "description": "Points an actor at a different sprite sheet without copying any tile data, for when the tiles are already loaded: a shared sheet another actor brought in, or a band a streaming plugin fills. Ported from the Ninball project's pinball plugin and stripped down to this one event.",
   "license": "MIT",
-  "version": "4.3.0",
+  "version": "4.3.1",
   "gbsVersion": ">=4.3.0"
 }
